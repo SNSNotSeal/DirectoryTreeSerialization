@@ -1,0 +1,7 @@
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\obj\Debug\DirectoryTreeSerialization.csprojAssemblyReference.cache
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\obj\Debug\DirectoryTreeSerialization.csproj.CoreCompileInputs.cache
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\bin\Debug\DirectoryTreeSerialization.exe.config
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\bin\Debug\DirectoryTreeSerialization.exe
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\bin\Debug\DirectoryTreeSerialization.pdb
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\obj\Debug\DirectoryTreeSerialization.exe
+C:\Users\阿文\source\repos\DirectoryTreeSerialization\DirectoryTreeSerialization\obj\Debug\DirectoryTreeSerialization.pdb
