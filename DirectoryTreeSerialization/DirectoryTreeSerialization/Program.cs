@@ -13,7 +13,17 @@ namespace DirectoryTreeSerialization
             string root = @"D:\工具集\dependency walker";
             SimpleSerialization simpleSerialization = new SimpleSerialization(root);
 
-            Console.WriteLine(simpleSerialization.Serialization());
+            Console.WriteLine(simpleSerialization.SerializedResult);
+
+            simpleSerialization.DeSerialization();
+
+            SimpleDirectory simpleDirectory = simpleSerialization.DeserializedResult;
+
+            Console.ReadKey();
+
+        //    simpleSerialization.SerializationToFile(@"H:\test.txt");
+        //    Console.WriteLine("Write to file successfully");
+
         }
     }
 }
