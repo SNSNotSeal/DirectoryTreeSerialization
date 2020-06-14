@@ -22,7 +22,7 @@ namespace DirectoryTreeSerialization
         public string convertToStr(int count)
         {
             StringBuilder rlt = new StringBuilder(name);
-            string tabs = printTabs();
+            string tabs = printDoubleSpaces();
             rlt.Append($"\n{tabs}|");
 
             if (childDirectories != null)
@@ -46,7 +46,7 @@ namespace DirectoryTreeSerialization
 
             return rlt.ToString();
 
-            string printTabs()
+            string printDoubleSpaces()
             {
                 StringBuilder _tabs = new StringBuilder();
                 for(int i = 0; i < count; i++)
