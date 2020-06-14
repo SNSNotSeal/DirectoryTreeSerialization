@@ -10,19 +10,26 @@ namespace DirectoryTreeSerialization
     {
         static void Main(string[] args)
         {
-            string root = @"D:\工具集\dependency walker";
+            //  string root = @"D:\工具集\dependency walker";
+            string root = @"G:\OS images";
             SimpleSerialization simpleSerialization = new SimpleSerialization(root);
 
-            Console.WriteLine(simpleSerialization.SerializedResult);
+            //Console.WriteLine(simpleSerialization.SerializedResult);
 
             simpleSerialization.DeSerialization();
 
-            SimpleDirectory simpleDirectory = simpleSerialization.DeserializedResult;
+            simpleSerialization.DeserializedResult.print();
 
-            Console.ReadKey();
+            simpleSerialization.SerializationToFile(@"H:\test.txt");
+            Console.WriteLine("Write to file successfully");
 
-        //    simpleSerialization.SerializationToFile(@"H:\test.txt");
-        //    Console.WriteLine("Write to file successfully");
+            Console.WriteLine();
+
+            simpleSerialization.DeserializationFromFile(@"H:\test.txt");
+
+            Console.WriteLine("Deserialization from file:");
+
+            simpleSerialization.DeserializedResult.print();
 
         }
     }
